@@ -1,5 +1,5 @@
 ﻿using System;
-namespace BlogsApp.Models
+namespace SQLTASK2.Models
 {
     public class Voucher
     {

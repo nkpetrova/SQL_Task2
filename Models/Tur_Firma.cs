@@ -1,4 +1,4 @@
-﻿namespace BlogsApp.Models
+﻿namespace SQLTASK2.Models
 {
     public class TurFirma
     {
