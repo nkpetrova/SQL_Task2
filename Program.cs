@@ -94,7 +94,7 @@ while ( true )
         }
         if (newCom < 0)
         {
-            Console.WriteLine("Комиссия не может быть меньше нуля");
+            Console.WriteLine("Комиссия не может быть меньше нуля!");
             continue;
         }
         turfirma.UpdateCommission(newCom);
@@ -149,7 +149,7 @@ while ( true )
     }
     else
     {
-        Console.WriteLine("Неправильно введенная команда");
+        Console.WriteLine("Неправильно введенная команда!");
     }
 }
 
