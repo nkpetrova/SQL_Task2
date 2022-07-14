@@ -92,6 +92,11 @@ while ( true )
             Console.WriteLine("Неккоректный ввод!");
             continue;
         }
+        if (newCom < 0)
+        {
+            Console.WriteLine("Комиссия не может быть меньше нуля");
+            continue;
+        }
         turfirma.UpdateCommission(newCom);
 
         turfirmaRepository.UpdateTurFirma(turfirma);
